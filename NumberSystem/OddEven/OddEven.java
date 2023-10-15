@@ -1,4 +1,4 @@
-package OddEven;
+package NumberSystem.OddEven;
 
 import java.util.Scanner;
 
