@@ -4,6 +4,9 @@ import java.nio.file.SecureDirectoryStream;
 
 public class first {
     public static int firstocc(int arr[],int key, int i){
+        if(i==arr.length){
+            return -1;
+        }
         if(arr[i]== key){
             return i;
         }
